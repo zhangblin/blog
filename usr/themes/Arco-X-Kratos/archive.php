@@ -48,7 +48,7 @@
 		<?php endwhile; ?>
 		<?php else: ?>
 		<div class="kratos-hentry clearfix">
-			<h1 class="kratos-post-header-title">Sorry. No Post Yet!</h1>
+			<h1 class="kratos-post-header-title">对不起，暂无内容</h1>
 		</div>
 		<?php endif; ?>
 
