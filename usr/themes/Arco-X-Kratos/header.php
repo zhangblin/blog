@@ -79,6 +79,7 @@
                                     <li class="current-menu-item"><a
                                                 href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
                                 <?php endwhile; ?>
+                                <li class="current-menu-item"><a href="http://blog.zhangbaolin.net/resume">我的简历</a></li>
                             </ul>
                         </nav>
                     </div>

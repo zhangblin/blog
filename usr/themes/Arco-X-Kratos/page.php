@@ -33,14 +33,14 @@
                         <?php parseContent($this); ?>
 						<?php if ($this->options->ad_postend): ?><img src="<?php $this->options->ad_postend(); ?>"><?php endif; ?>
 						</div>
-						<footer class="kratos-entry-footer clearfix">
-							<div class="footer-tag clearfix">
-								<div class="pull-left">
-								<i class="fa fa-tags"></i>
-								<?php $this->tags(' ', true, '<a>没有标签</a>'); ?>
-								</div>
-							</div>
-						</footer>
+<!--						<footer class="kratos-entry-footer clearfix">-->
+<!--							<div class="footer-tag clearfix">-->
+<!--								<div class="pull-left">-->
+<!--								<i class="fa fa-tags"></i>-->
+<!--								--><?php //$this->tags(' ', true, '<a>没有标签</a>'); ?>
+<!--								</div>-->
+<!--							</div>-->
+<!--						</footer>-->
 					</div>
 <!--					<div class="kratos-hentry kratos-copyright text-center clearfix">-->
 <!--						<img alt="知识共享许可协议" src="--><?php //$this->options->themeUrl('images/licenses.png'); ?><!--">-->
