@@ -34,13 +34,13 @@
 					<div class="kratos-post-meta-new">
 					<span class="visible-lg visible-md visible-sm pull-left">
 					<a href="#"><i class="fa fa-calendar"></i> <?php $this->date('Y/m/d'); ?></a>
-					<a href="<?php $this->permalink(); ?>#respond"><i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> Comments</a>
+					<a href="<?php $this->permalink(); ?>#respond"><i class="fa fa-commenting-o"></i> <?php $this->commentsNum('0', '1', '%d'); ?> </a>
 					</span>
 					<span class="pull-left">
-					<a href="<?php $this->permalink(); ?>"><i class="fa fa-eye"></i> <?php get_post_view($this); ?> Views</a>
+					<a href="<?php $this->permalink(); ?>"><i class="fa fa-eye"></i> <?php get_post_view($this); ?> </a>
 					</span>
 					<span class="pull-right">
-					<a class="read-more" href="<?php $this->permalink(); ?>" title="Read More">Read More <i class="fa fa-chevron-circle-right"></i></a>
+					<a class="read-more" href="<?php $this->permalink(); ?>" title="更多">更多 <i class="fa fa-chevron-circle-right"></i></a>
 					</span>
 					</div>
 				</div>
