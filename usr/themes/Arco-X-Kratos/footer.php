@@ -17,7 +17,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 								<?php if ($this->options->socialfacebook): ?><a target="_blank" rel="external nofollow" href="<?php $this->options->socialfacebook(); ?>"><i class="fa fa-facebook"></i></a><?php endif; ?>
 								<?php if ($this->options->socialrss): ?><a target="_blank" href="<?php if ($this->options->socialrss == 'off'): ?><?php $this->options ->siteUrl(); ?>feed/"><?php else: ?><?php $this->options->socialrss(); ?><?php endif; ?><i class="fa fa-rss"></i></a><?php endif; ?>
 							</p>
-							<p>Copyright <?php echo date("Y"); ?> © <?php $this->options->title();?> <a href="http://beian.miit.gov.cn/">蒙ICP备15000095号-3</a>
+							<p>Copyright <?php echo date("Y"); ?> © <?php $this->options->title();?> <a href="http://www.beian.miit.gov.cn/">蒙ICP备15000095号-3</a>
 							<br>Powered by <a href="http://www.typecho.org/" target="_blank">Typecho</a>
 							Theme by <a href="https://github.com/vtrois/kratos" target="_blank" rel="nofollow">Kratos</a> </p>
 						</div>
